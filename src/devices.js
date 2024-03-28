@@ -1,4 +1,5 @@
 export default (editor, config = {}) => {
+	console.log("editor", editor);
 	const c = config;
 	const deviceManager = editor.DeviceManager;
 
@@ -44,11 +45,11 @@ export default (editor, config = {}) => {
 
 
 		//deviceManager.remove("desktop");
-		deviceManager.remove("tablet");
-		deviceManager.remove("mobileLandscape");
-		deviceManager.remove("mobilePortrait");
-		const device = deviceManager.get('desktop');
-		deviceManager.select(device);
+		//deviceManager.remove("tablet");
+		//deviceManager.remove("mobileLandscape");
+		//deviceManager.remove("mobilePortrait");
+		//const device = deviceManager.get('desktop');
+		//deviceManager.select(device);
 		return;
 
 

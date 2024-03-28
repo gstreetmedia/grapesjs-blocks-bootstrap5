@@ -1,0 +1,32 @@
+{
+  "name": "grapes-bootstrap5-blocks",
+  "version": "1.0.5",
+  "description": "A set of Bootstrap Blocks for Grapes JS. Very much a work in progress. Grapes changes a lot from one version to another. Hard to keep up.",
+  "main": "dist/js/grapes-js-bootstrap-blocks/index.js",
+  "scripts": {
+    "dev": "node grapes-dev.js",
+    "prod": "node grapes-prod.js"
+  },
+  "keywords": [
+    "grapesjs",
+    "plugin",
+    "bootstrap",
+    "bootstrap5"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gstreetmedia/grapesjs-blocks-bootstrap5"
+  },
+  "author": "Andrew Greenstreet | schukai GmbH, Miguel Suarez",
+  "license": "AGPL 3.0",
+  "peerDependencies": {
+    "grapesjs": "0.x"
+  },
+  "devDependencies": {
+    "esbuild": "^0.20.2"
+  },
+  "dependencies": {
+    "inflected": "^2.1.0",
+    "lodash.flattendeep": "^4.4.0"
+  }
+}

@@ -63,7 +63,7 @@ export default class Card extends ComponentBase {
 			<div
 					class="card-icon-header card-header d-flex justify-content-center text-bg-primary align-items-center border-0"
 					data-gjs-type="${this.type}-icon-header">
-				<i class="fa-solid fa-icons my-3 fs-50" data-gjs-type="${this.namespace}icon"></i>
+				<i class="bi bi-clock-fill my-3" data-gjs-type="${this.namespace}icon"></i>
 			</div>`
 	}
 

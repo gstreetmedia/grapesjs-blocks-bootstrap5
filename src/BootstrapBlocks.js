@@ -267,48 +267,13 @@ export default class BootstrapBlocks {
 			loadTraits(editor, options);
 			loadComponents(editor, options);
 			loadDevices(editor, options);
-			this.initFileManager(editor);
 
-			//editor.Canvas.getDocument().addAttribute(
-			//	"data-bs-theme", "dark"
-			//)
-			//console.log(editor.getDocument());
-			//document-group.querySelector(".gjs-frame").addAttribute("data-bs-theme", "dark")
-			//loadCss(editor, options);
+
 		});
 
 	}
 
 	static initFileManager(editor) {
-		/*
-		const assetManager = editor.AssetManager;
-		console.log(assetManager);
-		let model = new FileModel();
-		let results = model.find(
-			{
-				where : {
-					type : {"in" : ["photo","image"]},
-					recordType : {"==" : null}
-				}
-			}
-		).then(
-			(files) => {
-				files.forEach(
-					(item) => {
-						let file = new FileType(item);
-						assetManager.add(
-							{
-								src : file.sizes.thumbnail.url,
-
-								file : file
-							}
-						)
-					}
-				)
-			}
-		);
-
-		 */
 
 	}
 }
